@@ -58,6 +58,11 @@ module.exports = {
     globals: {
         __IS_DEV__: true,
     },
+    settings: {
+        react: {
+            version: 'detect',
+        },
+    },
     overrides: [
         {
             files: ['**/src/**/*.{test,stories}.{ts,tsx}'],
